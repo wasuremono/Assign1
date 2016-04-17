@@ -26,9 +26,6 @@ public class SongHandler {
 			if(e.getNodeName().equalsIgnoreCase("title")){
 				newSong.setSongTitle(e.getTextContent());
 			}
-			if(e.getNodeName().equalsIgnoreCase("albumid")){
-				newSong.setAlbumId(e.getTextContent());
-				}
 			if(e.getNodeName().equalsIgnoreCase("price")){
 				newSong.setSongPrice(Float.parseFloat(e.getTextContent()));
 			}
